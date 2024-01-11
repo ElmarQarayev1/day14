@@ -31,7 +31,7 @@ namespace task1
 
 		public void ShowInfo()
 		{
-			Console.WriteLine($"{this.Fullname}-{this.BirthDate}-{this.GroupNo}-{this.Point}");
+			Console.WriteLine($"{this.Fullname}-{this.BirthDate.ToString("dd.MM.yyy")}-{this.GroupNo}-{this.Point}");
 		}
 
 
